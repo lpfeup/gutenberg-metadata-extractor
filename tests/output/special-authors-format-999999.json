@@ -1,0 +1,24 @@
+{
+	"id": 999999,
+	"title": "Piccole anime",
+	"authors": [
+		{
+			"id": 7688,
+			"name": "Serao, Matilde",
+			"birthDate": 1856,
+			"webpage": "http://en.wikipedia.org/wiki/Matilde_Serao",
+			"deathDate": 1927,
+			"aliases": [
+				"Scarfoglia, Matilde Serao",
+				"Serao-Scarfoglia, Matilde"
+			]
+		}
+	],
+	"publisher": "Project Gutenberg",
+	"publicationDate": "2013-03-26",
+	"language": "it",
+	"subjects": [],
+	"licenseRights": [
+		"Public domain in the USA."
+	]
+}

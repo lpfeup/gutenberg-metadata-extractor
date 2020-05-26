@@ -1,0 +1,26 @@
+{
+	"id": 1,
+	"title": "The Declaration of Independence of the United States of America",
+	"authors": [
+		{
+			"id": 1638,
+			"name": "Jefferson, Thomas",
+			"birthDate": 1743,
+			"webpage": "http://en.wikipedia.org/wiki/Thomas_Jefferson",
+			"deathDate": 1826,
+			"aliases": [
+				"United States President (1801-1809)"
+			]
+		}
+	],
+	"publisher": "Project Gutenberg",
+	"publicationDate": "1971-12-01",
+	"language": "en",
+	"subjects": [
+		"United States -- History -- Revolution, 1775-1783 -- Sources",
+		"United States. Declaration of Independence"
+	],
+	"licenseRights": [
+		"Public domain in the USA."
+	]
+}

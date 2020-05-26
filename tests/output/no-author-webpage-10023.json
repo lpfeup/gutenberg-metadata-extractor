@@ -1,0 +1,26 @@
+{
+	"id": 10023,
+	"title": "There's Pippins and Cheese to Come",
+	"authors": [
+		{
+			"id": 3268,
+			"name": "Brooks, Charles S. (Charles Stephen)",
+			"birthDate": 1878,
+			"webpage": null,
+			"deathDate": 1934,
+			"aliases": [
+				"Brooks, C. S. (Charles Stephen)",
+				"Brooks, Charles Stephen"
+			]
+		}
+	],
+	"publisher": "Project Gutenberg",
+	"publicationDate": "2003-11-01",
+	"language": "en",
+	"subjects": [
+		"Essays"
+	],
+	"licenseRights": [
+		"Public domain in the USA."
+	]
+}

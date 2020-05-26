@@ -1,0 +1,26 @@
+{
+	"id": 10000,
+	"title": "The Magna Carta",
+	"authors": [
+		{
+			"id": 216,
+			"name": "Anonymous",
+			"birthDate": null,
+			"webpage": "http://en.wikipedia.org/wiki/Anonymity",
+			"deathDate": null,
+			"aliases": [
+				"Anonyme"
+			]
+		}
+	],
+	"publisher": "Project Gutenberg",
+	"publicationDate": "2006-03-01",
+	"language": "en",
+	"subjects": [
+		"Magna Carta",
+		"Constitutional history -- England -- Sources"
+	],
+	"licenseRights": [
+		"Public domain in the USA."
+	]
+}

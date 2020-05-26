@@ -1,0 +1,54 @@
+{
+  "env": {
+    "es2017": true,
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "plugins": [
+    "mocha",
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended-script",
+    "plugin:mocha/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "eqeqeq": ["error", "smart"],
+    "no-bitwise": "error",
+    "no-console": "off",
+    "no-constructor-return": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-fallthrough": "off",
+    "no-implied-eval": "error",
+    "no-loop-func": "error",
+    "no-multi-str": "error",
+    "no-new-object": "error",
+    "no-new-wrappers": "error",
+    "no-return-assign": "error",
+    "no-return-await": "error",
+    "no-script-url": "error",
+    "no-shadow": "error",
+    "no-template-curly-in-string": "error",
+    "no-throw-literal": "error",
+    "no-var": "error",
+    "prefer-const": ["error", {"destructuring": "all"}],
+    "prefer-promise-reject-errors": "error",
+    "node/exports-style": ["error", "module.exports"],
+    "node/file-extension-in-import": ["error", "always"],
+    "node/no-path-concat": "error",
+    "node/prefer-global/buffer": ["error", "always"],
+    "node/prefer-global/console": ["error", "always"],
+    "node/prefer-global/process": ["error", "always"],
+    "node/prefer-global/url-search-params": ["error", "always"],
+    "node/prefer-global/url": ["error", "always"],
+    "node/prefer-promises/dns": "error",
+    "node/prefer-promises/fs": "error",
+    "prettier/prettier": "error"
+  }
+}

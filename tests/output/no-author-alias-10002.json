@@ -1,0 +1,23 @@
+{
+	"id": 10002,
+	"title": "The House on the Borderland",
+	"authors": [
+		{
+			"id": 3260,
+			"name": "Hodgson, William Hope",
+			"birthDate": 1877,
+			"webpage": "http://en.wikipedia.org/wiki/William_Hope_Hodgson",
+			"deathDate": 1918,
+			"aliases": []
+		}
+	],
+	"publisher": "Project Gutenberg",
+	"publicationDate": "2003-11-01",
+	"language": "en",
+	"subjects": [
+		"Science fiction"
+	],
+	"licenseRights": [
+		"Public domain in the USA."
+	]
+}
