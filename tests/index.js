@@ -95,7 +95,7 @@ describe("Metadata Extractor", function () {
     });
 
     it("should successfully parse RDF without author deathdate", async function () {
-      return parseRDFAndMatchOutput("no-author-deathdate-10011");
+      return parseRDFAndMatchOutput("no-author-deathdate-10013");
     });
 
     it("should successfully parse RDF without subjects", async function () {

@@ -1,21 +1,23 @@
 {
-	"id": 10011,
-	"title": "365 Foreign Dishes\r\nA Foreign Dish for Every Day in the Year",
+	"id": 10013,
+	"title": "Punchinello, Volume 1, No. 09, May 28, 1870",
 	"authors": [
 		{
-			"id": 49,
-			"name": "Unknown",
+			"id": 116,
+			"name": "Various",
 			"birthDate": null,
-			"webpage": "ebooks/author/216",
+			"webpage": null,
 			"deathDate": null,
-			"aliases": []
+			"aliases": [
+				"Verschillende"
+			]
 		}
 	],
 	"publisher": "Project Gutenberg",
 	"publicationDate": "2003-11-01",
 	"language": "en",
 	"subjects": [
-		"Cooking"
+		"American wit and humor -- Periodicals"
 	],
 	"licenseRights": [
 		"Public domain in the USA."
