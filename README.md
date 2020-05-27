@@ -50,7 +50,7 @@ npm test
 
 Generate coverage report
 ```
-npm run converage
+npm run coverage
 ```
 
 ## 4. Linting
