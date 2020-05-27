@@ -21,11 +21,16 @@ async function parseRDFAndMatchOutput(filename) {
   assert.deepEqual(actualOutput, expectedOutput);
 }
 
-async function saveBookAndMatchFields(filename) {
+async function saveBook(filename) {
   const inputFile = path.join(__dirname, "input", `${filename}.json`);
   const book = JSON.parse(await fs.readFile(inputFile));
 
   await store.saveBook(book);
+  return book;
+}
+
+async function saveBookAndMatchFields(filename) {
+  const book = await saveBook(filename);
 
   return matchSavedBook(book.id, book);
 }
@@ -136,6 +141,23 @@ describe("Metadata Extractor", function () {
 
     it("should successfully store book without authors", async function () {
       await saveBookAndMatchFields("book1-no-authors");
+    });
+
+    it("should support full text search on book", async function () {
+      const savedBook = await saveBook("all-1");
+      const searchedBooks = await store.searchBook("declaration");
+
+      assert.lengthOf(searchedBooks, 1);
+      assert.equal(searchedBooks[0].id, savedBook.id);
+    });
+
+    it("should support full text search on author", async function () {
+      const book = await saveBook("all-1");
+      const savedBook = await store.findBookById(book.id);
+      const searchedAuthors = await store.searchAuthor("jefferson");
+
+      assert.lengthOf(searchedAuthors, 1);
+      assert.equal(searchedAuthors[0].id, savedBook.authors[0].id);
     });
   });
 
